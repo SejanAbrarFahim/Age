@@ -12,6 +12,6 @@ body{
         @apply  text-center text-xl text-gray-600 ;
     }
     .input{
-        @apply border-2 border-blue-200 mx-10 lg:mx-0 px-5 py-2 rounded-xl mt-2 lg:w-50   shadow-blue-200 shadow-2xl;
+        @apply border-2 border-blue-200 mx-0  px-5 py-2 rounded-xl mt-2 lg:w-50 md:w-45  shadow-blue-200 shadow-2xl;
     }
 }

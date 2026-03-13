@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/ChatGPT Image Mar 13, 2026, 03_57_40 PM.png" type="image/x-icon">
+    <link rel="stylesheet" href="dist/styles.css">
+    <title>Your Age</title>
+</head>
+  <body class="min-h-screen flex items-center justify-center 
+bg-gradient-to-br from-purple-200 via-blue-200  to-teal-200">
+    <section class="w-[80%] lg:w-[65%] xl:w-[55%] 2xl:w-[45%] mx-auto bg-white rounded-xl shadow-2xl shadow-blue-300">
+       <div class="text-center my-10">
+        <h2 class="text-2xl lg:text-4xl font-light text-gray-700 mb-3">Birth Date Calculator</h2>
+        <h4 class="text-gray-400 texl-xs lg:text-xl mx-5">Enter your birth date to calculate your age.</h4>
+       </div>
+       <div class=" lg:flex justify-between items-center mx-4  xl:mx-20 gap-1">
+          <div class="flex flex-col  justify-center pb-10">
+            <label for="date" class="label">Date</label>
+            <input type="text" name="Date" id="date" placeholder="dd" required="required" minlength="1" maxlength="2" class="input">
+          </div>
+          <div class="flex flex-col justify-center pb-10">
+            <label for="month" class="label">Month</label>
+            <input type="text" name="month" id="month" placeholder="dd" required="required" minlength="1" maxlength="2" class="input">
+          </div>
+          <div class="flex flex-col justify-center pb-10">
+            <label for="year" class="label">Year</label>
+            <input type="text" name="year" id="year" placeholder="dd" required="required" minlength="4" maxlength="4" class="input">
+          </div>
+       </div>
+        
+       <div class="flex justify-center items-center">
+        <button type="submit" onclick="age()" / class="border text-white bg-blue-300 shadow-blue-400 shadow-2xl border-blue-200 rounded-full px-5 py-1 text-xl mb-5 cursor-pointer">Calculator</button>
+       </div>
+       <div id="age" class="text-center text-xl mb-6 "></div>
+    </section>
+  </body>
+
+  <script src="Script.js"></script>
+ 
+</html>

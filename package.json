@@ -1,0 +1,23 @@
+{
+  "name": "age-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "type": "module",
+    "scripts": {
+    "build":"postcss styles.css -o dist/styles.css",
+    "dev":"postcss styles.css -o dist/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "postcss": "^8.5.8",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.2.1"
+  }
+}

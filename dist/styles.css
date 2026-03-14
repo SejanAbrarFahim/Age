@@ -389,6 +389,11 @@
       width: 55%;
     }
   }
+  .\32 xl\:w-\[40\%\] {
+    @media (width >= 96rem) {
+      width: 40%;
+    }
+  }
   .\32 xl\:w-\[45\%\] {
     @media (width >= 96rem) {
       width: 45%;

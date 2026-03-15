@@ -9,10 +9,10 @@ body{
 
 @layer components{
     .label{
-        @apply  text-center text-xl text-gray-600 ;
+        @apply  text-center text-xl text-gray-600 font-semibold;
     }
     .input{
-          @apply border-2 border-blue-200 md:mx-0  px-5 py-2 rounded-xl mt-1 lg:w-50 md:w-45 mx-10 shadow-blue-200 shadow-2xl outline-none focus:border-purple-300 focus:ring-2 focus:ring-purple-100 text-lg transition-all duration-300 focus:scale-105;
+          @apply border-2 border-blue-200 md:mx-0  px-5 py-2 rounded-xl mt-1 lg:w-47 md:w-45 xl:w-50 mx-10 shadow-blue-200 shadow-2xl outline-none focus:border-purple-300 focus:ring-2 focus:ring-purple-100 text-lg transition-all duration-300 focus:scale-105;
 
     }
 }
